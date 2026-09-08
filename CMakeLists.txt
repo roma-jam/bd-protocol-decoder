@@ -39,8 +39,6 @@ target_link_libraries(stream_parser_app
         stream_parser_lib
 )
 
-option(BUILD_TESTS "Build unit tests" ON)
-
 if(BUILD_TESTS)
     enable_testing()
     add_subdirectory(tests)
